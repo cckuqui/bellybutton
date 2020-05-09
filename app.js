@@ -6,7 +6,7 @@
 //     }) 
 // };
 // Open Json file with data.
-d3.json('samples.json').then((data) =>{
+d3.json('../samples.json').then((data) =>{
     console.log(data);
     var d = data;
 });
