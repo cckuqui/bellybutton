@@ -102,7 +102,7 @@ function init() {
               var data = [trace1];
               
               var layout = {
-                title: 'Marker Size',
+                title: 'Samples by ID and values',
                 showlegend: false,
                 autosize: true
               };
