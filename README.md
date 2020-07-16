@@ -19,4 +19,8 @@ Create an interactive dashboard to review the data with:
 
 ## Results
 
-![Gif of the deployed site]()
+![Gif of the deployed site](Images/deployed_site.gif)
+
+### Copyright
+
+The first image was retrived from Men's Health on 15/07/2020.
