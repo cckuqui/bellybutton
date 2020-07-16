@@ -19,6 +19,22 @@ Create an interactive dashboard to review the data with:
 
 ## Results
 
+* Table displaying each key-value pair from the metadata JSON object somewhere on the page.
+  
+  ![Table](Images/table.png)
+
+* Horizontal bar chart with the top 10 OTUs found in that individual.
+
+  ![Barchart](Images/barchart.png)
+
+* Bubble chart that displays each sample.
+
+  ![Bubble](Images/bubble.png)
+
+* Gauge Chart with the weekly washing frequency of the individual.
+
+  ![Gauge](Images/gauge.png)
+
 ![Gif of the deployed site](Images/deployed_site.gif)
 
 ### Copyright
