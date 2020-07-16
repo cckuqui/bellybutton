@@ -1,6 +1,6 @@
 // Add names into dropdown
 function init() {
-    d3.json('samples.json').then((d) => {
+    d3.json('Resources/samples.json').then((d) => {
         
         // Analize json
         console.log(d);
@@ -121,7 +121,7 @@ function init() {
                 x: [0],
                 y: [0],
                 marker: {
-                    size: 1,
+                    size: 30,
                     color: "#CC0000" },
                 showlegend: false,
                 name: "Frequency",
@@ -149,7 +149,7 @@ function init() {
                 },
                 labels: ["8-9", "7-8", "6-7", "5-6", "4-5", "3-4", "2-3", "1-2", "0-1", ""],
                 hoverinfo: "label",
-                hole: 0.5,
+                hole: .6,
                 type: "pie",
                 showlegend: false
                 }
@@ -193,18 +193,7 @@ function init() {
             bubble(nameID);
             gauge(nameID);
         };    
- 
- 
- 
- 
     })
-        
-    
-    
-    }
+}
 
-init();
-
-
-    
-    
+init();  
