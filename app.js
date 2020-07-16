@@ -35,7 +35,21 @@ function init() {
                 y: otu_ids.map(o => `OTU ${o}`).reverse(),
                 text: otu_labels,
                 type: "bar",
-                orientation: "h"
+                orientation: "h",
+                marker: {
+                    color: [
+                        '#7be3b7',
+                        '#94e6a9',
+                        '#aee99d',
+                        '#c9ea93',
+                        '#e4ea8c',
+                        '#ffe989',
+                        '#f8cc84',
+                        '#e8b182',
+                        '#d19a81',
+                        '#b4867d'
+                    ]
+                }
               };
 
             var layout = {
@@ -136,16 +150,16 @@ function init() {
                 textposition: "inside",
                 marker: {
                     colors: [
-                    "#8dd3c7",
-                    "#ffffb3",
-                    "#bebada",
-                    "#fb8072",
-                    "#80b1d3",
-                    "#fdb462",
-                    "#b3de69",
-                    "#fccde5",
-                    "#F9E3B5",
-                    "#FFFFFF"
+                        '#7be3b7',
+                        '#94e6a9',
+                        '#aee99d',
+                        '#c9ea93',
+                        '#e4ea8c',
+                        '#ffe989',
+                        '#f8cc84',
+                        '#e8b182',
+                        '#d19a81',
+                        "#FFFFFF"
                     ]
                 },
                 labels: ["8-9", "7-8", "6-7", "5-6", "4-5", "3-4", "2-3", "1-2", "0-1", ""],
