@@ -122,7 +122,8 @@ function init() {
                 y: [0],
                 marker: {
                     size: 30,
-                    color: "#CC0000" },
+                    color: "black"
+                },
                 showlegend: false,
                 name: "Frequency",
                 text: wfreq,
@@ -135,14 +136,14 @@ function init() {
                 textposition: "inside",
                 marker: {
                     colors: [
-                    "#CC0000",
-                    "#D21C17",
-                    "#D7392D",
-                    "#DD5544",
-                    "#E3715B",
-                    "#E88E71",
-                    "#EEAA88",
-                    "#F4C69F",
+                    "#8dd3c7",
+                    "#ffffb3",
+                    "#bebada",
+                    "#fb8072",
+                    "#80b1d3",
+                    "#fdb462",
+                    "#b3de69",
+                    "#fccde5",
                     "#F9E3B5",
                     "#FFFFFF"
                     ]
@@ -160,10 +161,10 @@ function init() {
                 {
                     type: "path",
                     path: path,
-                    fillcolor: "#CC00CC",
-                    line: {
-                    color: "#CC00CC"
-                    }
+                    fillcolor: "black",
+                    // line: {
+                    // color: "black"
+                    // }
                 }
                 ],
                 title: "Scrubs per Week",
